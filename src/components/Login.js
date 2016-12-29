@@ -14,7 +14,8 @@ export default class LoginForm extends React.Component {
   render() {
     return (
       <div className="login row">
-        <div className="login-form col-md-7 col-sm-12 col-xs-12">
+        <div className="login-form col-md-3"></div>
+        <div className="login-form col-md-6">
           <h4>Login</h4>
           <p>Welcome to the simple Node React Redux App</p>
           <form className="LoginForm form-horizontal" id="loginForm" onSubmit={this.loginSubmit}>
@@ -50,6 +51,7 @@ export default class LoginForm extends React.Component {
             </fieldset>
           </form>
         </div>
+        <div className="login-form col-md-3"></div>
       </div>
     );
   }
