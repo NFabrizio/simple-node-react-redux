@@ -3,7 +3,7 @@
 import path from 'path';
 import { Server } from 'http';
 import express from 'express';
-import react from 'react';
+import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { match, RouterContext } from 'react-router';
 import routes from './routes';
@@ -53,6 +53,6 @@ server.listen(port, hostname, err => {
   if (err) {
     return console.log(err);
   }
-  
+
   console.log(`Server running at http://${hostname}:${port}/`);
 });

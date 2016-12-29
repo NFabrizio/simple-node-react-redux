@@ -1,16 +1,16 @@
-import react from 'react';
+import React from 'react';
 
-export default class LoginForm extends react.Component {
+export default class LoginForm extends React.Component {
   constructor(props) {
     super(props);
-  },
+  }
   loginSubmit(event) {
     event.preventDefault();
 
     const username = ReactDOM.findDOMNode(this.refs.user).value.trim();
     const password = ReactDOM.findDOMNode(this.refs.password).value.trim();
 
-  },
+  }
   render() {
     return (
       <div className="login row">

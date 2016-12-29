@@ -1,8 +1,8 @@
-import react from 'react';
+import React from 'react';
 import { Router, browserHistory } from 'react-router';
 import routes from '../routes';
 
-export default class Router extends react.Component {
+export default class Routing extends React.Component {
   render() {
     return (
       <Router history={ browserHistory } routes={ routes } />

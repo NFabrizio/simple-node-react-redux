@@ -1,11 +1,12 @@
-import react from 'react';
-import { Route, IndexRoute } from 'react-router'
+import React from 'react';
+import { Route, IndexRedirect } from 'react-router'
+import MainLayout from './components/MainLayout';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
 
 const routes = (
-  <Route path="/" component={ Layout }>
+  <Route path="/" component={ MainLayout }>
     <IndexRedirect to="dashboard" />
     <Route
       path="dashboard"

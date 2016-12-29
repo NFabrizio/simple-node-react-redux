@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-export default class MainLayout extends react.Component {
+export default class MainLayout extends React.Component {
   render() {
     return (
       <div className="container">
