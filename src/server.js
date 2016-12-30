@@ -3,6 +3,8 @@
 import path from 'path';
 import { Server } from 'http';
 import express from 'express';
+// import stormpath from 'express-stormpath';
+import bodyParser from 'body-parser';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { match, RouterContext } from 'react-router';

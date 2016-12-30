@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, IndexRedirect } from 'react-router'
 import MainLayout from './components/MainLayout';
-import Login from './components/Login';
+import LoginForm from './components/LoginForm';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
 
@@ -14,7 +14,7 @@ const routes = (
     />
     <Route
       path="login"
-      component={ Login }
+      component={ LoginForm }
     />
     <Route
       path="*"
